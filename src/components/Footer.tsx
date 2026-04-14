@@ -4,7 +4,7 @@ import { Instagram, Phone, MapPin } from "lucide-react";
 const PHONE = ""; // Left blank since no phone is currently listed
 const PHONE_DISPLAY = "Add Phone Number";
 const ADDRESS = "Shop no-98, 98, Satya Niketan Rd, Moti Bagh II, Satya Niketan, South Moti Bagh, New Delhi, Delhi 110021, India";
-const MAPS_LINK = "https://maps.google.com/maps?cid=5147407519656722231";
+const MAPS_LINK = "https://www.google.com/maps/place/amore+cafe+and+bakery+satya+niketan/data=!4m2!3m1!1s0x390d1d000326ed37:0x670fdaa3c9a1b3eb?sa=X&ved=1t:242&ictx=111";
 
 const Footer = () => (
   <footer className="bg-foreground text-background relative overflow-hidden">
@@ -22,7 +22,13 @@ const Footer = () => (
             A cozy 24/7 bakery and cafe serving the finest coffee, cakes, sandwiches, and pasta in Satya Niketan.
           </p>
           <div className="flex gap-3">
-            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center text-background/60 hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+            <a 
+              href="https://www.instagram.com/amorecafeoffical/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Instagram" 
+              className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center text-background/60 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            >
               <Instagram size={18} />
             </a>
           </div>
